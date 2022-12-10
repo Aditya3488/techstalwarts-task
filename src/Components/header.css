@@ -1,0 +1,23 @@
+.header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 150px;
+  gap: 64px;
+  position: absolute;
+  width: 100%;
+  height: 74.45px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #e4e9ee;
+}
+
+.logo {
+  width: 157px;
+  height: 37px;
+  flex: auto;
+  order: 0;
+  flex-grow: 0;
+}
